@@ -1,0 +1,27 @@
+{
+  "name": "api_tokenserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawankp550/API_TokenServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawankp550/API_TokenServer/issues"
+  },
+  "homepage": "https://github.com/pawankp550/API_TokenServer#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
+  }
+}
