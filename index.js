@@ -3,6 +3,9 @@ const http = require('http');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const router = require('./router');
+const mongoose = require('mongoose');
+//DB Setup
+mongoose.connect('mongodb+srv://p1:mongodb12345@emaily-dev-m5nw2.mongodb.net/test?retryWrites=true', { useNewUrlParser: true })
 
 const App = express();
 
